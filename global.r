@@ -59,9 +59,6 @@ DATADIR <<- ifelse(OS=='Linux', "/local/shiny-data/", '.')
 MAIL <<- 'karsten@broadinstitute.org'
 ## URL to configuration app (SSP only)
 CONFAPP <<- 'http://shiny-proteomics.broadinstitute.org:3838/modTconf/'
-## PIWIK location
-PIWIKURL <<- '//shiny-proteomics.broadinstitute.org/piwik/'
-
 
 
 #################################################################
